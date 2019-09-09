@@ -15,7 +15,7 @@
       "description": "Scope (user or team) under which the project will be deployed",
       "alias": "S"
     },
-    "no-build": {
+    "noBuild": {
       "type": "boolean",
       "default": false,
       "description": "Skip build process during deployment"
