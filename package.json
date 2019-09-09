@@ -1,6 +1,6 @@
 {
   "name": "@zeit/ng-deploy",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Deploy Angular projects to Now",
   "repository": "zeit/ng-deploy-now",
   "author": {
