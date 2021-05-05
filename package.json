@@ -10,6 +10,9 @@
   "license": "MIT",
   "builders": "./builders.json",
   "schematics": "./collection.json",
+  "ng-add": {
+    "save": "devDependencies"
+  },
   "scripts": {
     "dev": "now dev",
     "build": "tsc",
