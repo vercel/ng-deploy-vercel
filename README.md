@@ -1,8 +1,8 @@
-![](https://assets.zeit.co/image/upload/v1561740077/repositories/ng-deploy-now/ng-deploy-now.png)
+<!-- ![](https://assets.zeit.co/image/upload/v1561740077/repositories/ng-deploy-now/ng-deploy-now.png)
 [![NPM version](https://img.shields.io/npm/v/@zeit/ng-deploy.svg)](https://www.npmjs.com/package/@zeit/ng-deploy)
 [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/zeit/now)
-
-Deploy Angular applications to [Now](https://zeit.co/now)
+ -->
+Deploy Angular applications to [Vercel](https://vercel.com/home)
 
 ## Quick start
 
@@ -22,12 +22,12 @@ Deploy Angular applications to [Now](https://zeit.co/now)
 1. Add `ng-deploy` to your project
 
    ```sh
-   ng add @zeit/ng-deploy
+   ng add @vercel/ng-deploy
    ```
 
-1. You will be prompt to log in to [Now](https://zeit.co/now) account
+1. You will be prompt to log in to [Vercel](https://vercel.com/home) account
 
-1. Deploy your project to `Now`
+1. Deploy your project to `Vercel`
 
    ```sh
    ng run hello-world:deploy
@@ -36,7 +36,7 @@ Deploy Angular applications to [Now](https://zeit.co/now)
 After deploying your application you will see output similar to the following:
 
 ```
-Your application is deployed at https://hello-world-1234.now.sh
+Your application is deployed at https://hello-world-1234.vercel.app
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ You can adjust your deployment with options.
 The available options are:
 
 - `--configuration` (`-c`) - A named build target, as specified in the "configurations" section of angular.json
-- `--scope` (`-s`) - Scope [user or team](https://zeit.co/docs/v2/platform/users-and-teams/) under which the project will be deployed
+- `--scope` (`-s`) - Scope [user or team](https://vercel.com/docs/cli#options/global-options/scope) under which the project will be deployed
 - `--force` (`-f`) - Force a new deployment even if nothing has changed
 - `--target` (`-t`) - Deploy to either 'staging' or 'production' aliases
 - `--no-build` - Skip build process during deployment
@@ -54,7 +54,7 @@ The available options are:
 Example:
 
 ```sh
-ng deploy --scope zeit
+ng deploy --scope vercel
 ```
 
 ## Development
@@ -63,13 +63,13 @@ If you want to try the latest package locally without installing it from npm, us
 
 ### yarn link
 
-Use the following instructions to make ng-deploy-now available locally via `yarn link`.
+Use the following instructions to make ng-deploy-vercel available locally via `yarn link`.
 
 1. Clone the project
 
    ```sh
-   git clone https://github.com/zeit/ng-deploy-now
-   cd ng-deploy-now
+   git clone https://github.com/vercel/ng-deploy-vercel
+   cd ng-deploy-vercel
    ```
 
 1. Install the dependencies
